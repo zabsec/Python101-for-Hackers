@@ -26,8 +26,8 @@ def function4(s1, s2):  # We can have more than one parameter in a function
     print("{} {}".format(s1, s2))
 
 
-function4("Suck your", "mums")  # We can print anything we want in here
-function4(s2="your mum", s1="sucks innit")  # We can determine which comes first when calling our function
+function4("Hello,", "Friend")  # We can print anything we want in here
+function4(s2="Hello,", s1="Friend")  # We can determine which comes first when calling our function
 
 
 def function5(s1="default"):  # We can assign default values to parameters
@@ -44,7 +44,7 @@ def function6(s1, *more):  # In this statement, we're saying there can be one or
 
 
 function6("function 6")  # We can use just one argument
-function6("function 6", "says", "you're", "mums", "a", "hoe")  # We can use as many arguments as we want
+function6("function 6", "says", "Hello,", "Friend")  # We can use as many arguments as we want
 
 
 def function7(**ks):  # This means the function needs a dictionary of arguments
